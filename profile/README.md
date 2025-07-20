@@ -1,18 +1,18 @@
-# 🌐 Silens – Decentralized AI Model Review & Governance
+# Silens – Decentralized AI Model Review & Governance
 
 **Silens** is a community-driven Web3 platform for **auditing and governing AI models**.  
 Users can submit AI models, test them with real prompts, and vote to approve, flag, or delist them — all powered by **CARV ID identity**, **on-chain smart contracts**, and deployed on **BNB Smart Chain**.
 
 ---
 
-## 🎯 Why Silens?
+## Why Silens?
 
-> 🧠 What if AI systems could hallucinate facts — and no one could stop them?  
-> 🧠 What if public trust in AI depended on platforms that users couldn't control?
+> What if AI systems could hallucinate facts — and no one could stop them?  
+> What if public trust in AI depended on platforms that users couldn't control?
 
 **Silens** offers a decentralized, transparent, and reputation-based alternative.
 
-### ✅ What You Can Do
+### What You Can Do
 - Submit and explore AI models
 - Review models with real inputs and outputs
 - Vote on proposals to approve, flag, or remove unsafe models
@@ -20,20 +20,20 @@ Users can submit AI models, test them with real prompts, and vote to approve, fl
 
 ---
 
-## 🛠️ Key Features
+## Key Features
 
 | Feature | Description |
 |--------|-------------|
-| 🆔 **CARV ID Integration** | ERC-7231 identity and reputation NFT |
-| 📤 **Model Submission** | Metadata + link to playground (e.g. Hugging Face) |
-| 🧪 **Review Engine** | Prompt → Output → Comment → Optional Screenshot |
-| 🗳️ **Governance Layer** | On-chain voting to approve, flag, or delist |
-| 🏅 **Reputation & Badges** | Earn points, unlock roles (Trusted Reviewer, Governance Voter) |
-| 🧱 **Built on BNB Chain** | Deployed fully on BSC Testnet for governance execution |
+| **CARV ID Integration** | ERC-7231 identity and reputation NFT |
+| **Model Submission** | Metadata + link to playground (e.g. Hugging Face) |
+| **Review Engine** | Prompt → Output → Comment → Optional Screenshot |
+| **Governance Layer** | On-chain voting to approve, flag, or delist |
+| **Reputation & Badges** | Earn points, unlock roles (Trusted Reviewer, Governance Voter) |
+| **Built on BNB Chain** | Deployed fully on BSC Testnet for governance execution |
 
 ---
 
-## 🔁 User Flow
+## User Flow
 
 1. **Mint CARV ID** (ERC-7231)
 2. **Submit AI model** (metadata + link)
@@ -43,11 +43,11 @@ Users can submit AI models, test them with real prompts, and vote to approve, fl
 6. **Proposal executed** → model status updated
 7. **Reputation score increases**
 
-## 🧱 Tech Architecture
+## Tech Architecture
 ![image](https://res.cloudinary.com/dbllvvcv5/image/upload/v1722674273/github/uuhrys8ap3intzsmnwzx)
 ---
 
-## 📦 Repo Structure
+## Repo Structure
 
 ### `silens-contracts/` – Smart Contracts
 - `ModelRegistry.sol`
@@ -69,17 +69,17 @@ Users can submit AI models, test them with real prompts, and vote to approve, fl
 
 ---
 
-## 🏅 Badge Roles
+## Badge Roles
 
 | Badge | Requirement | Power |
 |-------|-------------|-------|
-| 🧪 VERIFIED_REVIEWER | 1 verified platform + CARV ID | Submit reviews |
-| 🧠 TRUSTED_REVIEWER | 30+ points | Elevated status |
-| 🗳️ GOVERNANCE_VOTER | 50+ points | Vote on proposals |
+| VERIFIED_REVIEWER | 1 verified platform + CARV ID | Submit reviews |
+| TRUSTED_REVIEWER | 30+ points | Elevated status |
+| GOVERNANCE_VOTER | 50+ points | Vote on proposals |
 
 ---
 
-## 🔗 Smart Contract Addresses (BSC Testnet)
+## Smart Contract Addresses (BSC Testnet)
 
 | Contract | Address |
 |---------|---------|
@@ -89,11 +89,11 @@ Users can submit AI models, test them with real prompts, and vote to approve, fl
 | Proposal Voting | `0x0e6c055996E02b129B8b4d7cCE9210997e408c7E` |
 | Identity Registry | `0x5EF386D8aF3b1709C4Ca0404A27E80B2d1206e38` |
 
-[🔎 View Contracts on BSCScan](https://testnet.bscscan.com/address/0xCA18A11ca8e44c9eef603242Ef3cc92EE8BE12C2)
+[View Contracts on BSCScan](https://testnet.bscscan.com/address/0xCA18A11ca8e44c9eef603242Ef3cc92EE8BE12C2)
 
 ---
 
-## 📊 API Endpoints (Indexer)
+## API Endpoints (Indexer)
 
 | Endpoint | Description |
 |----------|-------------|
@@ -107,7 +107,7 @@ Users can submit AI models, test them with real prompts, and vote to approve, fl
 
 ---
 
-## 🎯 Track Alignment (FAIR3 × CARV)
+## Track Alignment (FAIR3 × CARV)
 
 ### 🟦 **FAIR3 – Track 1.1: Technological Fairness**
 - Promotes algorithmic transparency through community reviews
@@ -135,25 +135,25 @@ Users can submit AI models, test them with real prompts, and vote to approve, fl
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
-> 🧪 Try the platform:  
+> Try the platform:  
 **[https://silens.up.railway.app](https://silens.up.railway.app)**  
 Connect your wallet, mint CARV ID, and test model review + governance live.
 
 ---
 
-## 🛡️ Security Highlights
+## Security Highlights
 
-- 🔐 Role-based access control in contracts
-- 🔄 Quorum-based on-chain proposal voting
-- 🗃️ IPFS + data integrity checks
-- ⚙️ Error handling + rate limiting in indexer
-- 🔒 Wallet-controlled interactions only
+- Role-based access control in contracts
+- Quorum-based on-chain proposal voting
+- IPFS + data integrity checks
+- ⚙Error handling + rate limiting in indexer
+- Wallet-controlled interactions only
 
 ---
 
-## 🧠 Vision
+## Vision
 
 > **Silens** is building a future where **AI is verifiable, transparent, and governed by the people**.  
 This is just the beginning — join us in making AI fairer.
