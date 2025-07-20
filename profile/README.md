@@ -148,7 +148,7 @@ Connect your wallet, mint CARV ID, and test model review + governance live.
 - Role-based access control in contracts
 - Quorum-based on-chain proposal voting
 - IPFS + data integrity checks
-- ⚙Error handling + rate limiting in indexer
+- Error handling + rate limiting in indexer
 - Wallet-controlled interactions only
 
 ---
